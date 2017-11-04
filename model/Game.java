@@ -1,9 +1,12 @@
 package model;
 
 public class Game {
-	
-	public int test() {
-		return 10;
+
+	public Object test() {
+		// TODO Auto-generated method stub
+		return null;
 	}
+	
+
 
 }

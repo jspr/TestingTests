@@ -6,10 +6,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import model.Game;
+
 public class GameTest {
+	
+	Game game;
 
 	@Before
 	public void setUp() throws Exception {
+		
 	}
 
 	@After
@@ -18,7 +23,8 @@ public class GameTest {
 
 	@Test
 	public void testTest() {
-		fail("Not yet implemented");
+		game = new Game();
+		assertEquals(10,game.test());
 	}
 
 }
